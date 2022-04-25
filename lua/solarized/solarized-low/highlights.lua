@@ -18,7 +18,6 @@ g.colors_name = 'solarized-low'
 
 function M.load_syntax(colors)
 	local syntax = {}
-
 	syntax['Normal'] = {fg=colors.base0,bg=utils.termtrans(colors.base02)}
 	syntax['FoldColumn'] = {fg=colors.base0,bg=utils.termtrans(colors.base02)}
 	syntax['Folded'] = {fg=colors.base0,bg=utils.termtrans(colors.base02),guisp=colors.base03,style='bold'}
@@ -331,6 +330,7 @@ function M.load_syntax(colors)
 	syntax['gitcommitUnmergedArrow'] = syntax['gitcommitUnmergedFile']
 	syntax['jsFuncCall'] = syntax['Function']
 	syntax['rubySymbol'] = syntax['String']
+  syntax['rubyTSSymbol'] = syntax['rubySymbol']
 	syntax['hsImportParams'] = syntax['Delimiter']
 	syntax['hsDelimTypeExport'] = syntax['Delimiter']
 	syntax['hsModuleStartLabel'] = syntax['hsStructure']

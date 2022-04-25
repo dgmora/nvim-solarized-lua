@@ -348,6 +348,7 @@ function M.load_syntax(colors)
 	syntax['gitcommitUnmergedArrow'] = syntax['gitcommitUnmergedFile']
 	syntax['jsFuncCall'] = syntax['Function']
 	syntax['rubySymbol'] = syntax['String']
+  syntax['rubyTSSymbol'] = syntax['rubySymbol']
 	syntax['hsImportParams'] = syntax['Delimiter']
 	syntax['hsDelimTypeExport'] = syntax['Delimiter']
 	syntax['hsModuleStartLabel'] = syntax['hsStructure']

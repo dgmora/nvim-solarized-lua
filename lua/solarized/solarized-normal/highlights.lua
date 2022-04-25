@@ -68,7 +68,6 @@ function M.load_syntax(colors)
 		syntax['TabLineSel'] = {fg=colors.base0,bg=colors.base02,style='reverse'}
 		syntax['VertSplit'] = {fg=colors.base01}
 	end
-
 	if g.solarized_visibility == 'high' then
 		syntax['CursorLineNr'] = {fg=colors.orange,bg=colors.base02,style='bold'}
 		syntax['LineNr'] = {fg=colors.base0,bg=colors.base02,}
@@ -329,6 +328,7 @@ function M.load_syntax(colors)
 	syntax['gitcommitUnmergedArrow'] = syntax['gitcommitUnmergedFile']
 	syntax['jsFuncCall'] = syntax['Function']
 	syntax['rubySymbol'] = syntax['String']
+  syntax['rubyTSSymbol'] = syntax['rubySymbol']
 	syntax['hsImportParams'] = syntax['Delimiter']
 	syntax['hsDelimTypeExport'] = syntax['Delimiter']
 	syntax['hsModuleStartLabel'] = syntax['hsStructure']
